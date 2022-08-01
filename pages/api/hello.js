@@ -1,2 +1,2 @@
-export const apiRest = () =>
-  `https://doar-computador-api.herokuapp.com/`;
+export const consultarCEP = (zip) =>
+  `https://viacep.com.br/ws/cep=${zip}/json/`;
